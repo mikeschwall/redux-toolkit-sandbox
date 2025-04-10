@@ -8,9 +8,7 @@ function App() {
 
   return (
     <div className={containerStyles.container}>
-      <SongList/>
-      <hr/>
-      <TodoList/>
+      test
     </div>
   )
 }
