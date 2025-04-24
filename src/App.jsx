@@ -1,14 +1,20 @@
+import React from 'react';
 import './App.css'
-import * as containerStyles from "./App.module.css"
-
+//import * as containerStyles from "./App.module.css"
+import { CssBaseline } from '@mui/material'
+import TodoList from './components/TodoList';
+import SongList from './components/SongList';
 
 
 function App() {
 
   return (
-    <div className={containerStyles.container}>
-      test
-    </div>
+    <React.Fragment>
+  <CssBaseline />
+  <SongList/>
+  <hr/>
+  <TodoList/>
+</React.Fragment>
   )
 }
 
