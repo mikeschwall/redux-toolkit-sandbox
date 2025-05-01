@@ -24,8 +24,8 @@ const TodoList = () => {
     return (
         <>
         <h2>Todos</h2>
-        {isLoading && <div style={{marginBottom:"20px"}}>Loading...</div>}
-        {isSuccess && <div style={{marginBottom:"20px"}}>Record created</div>}
+        {isLoading && <div style={{marginBottom:"19px"}}>Loading...</div>}
+        {isSuccess && <div style={{marginBottom:"19px"}}>Record created</div>}
         <Button onClick={() => handlePost()} variant='contained'>Send Request</Button>
         <List>
             {data && data.map(item => <ListItem key={item.id} style={{ borderBottom: '1px solid #ccc' }}>{item.title}</ListItem>)}
