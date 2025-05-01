@@ -27,7 +27,7 @@ const SongList = () => {
 
     return <>
         <h2>Songs</h2>
-        <Stack style={{marginBottom:"20px"}} spacing={2} direction="row">
+        <Stack style={{marginBottom:"19px"}} spacing={2} direction="row">
       <Button onClick={() => handleAdd({title:"Song 5"})} variant="contained">Add Song</Button>
       <Button onClick={() => handleReset()} variant="outlined">Reset</Button>
     </Stack>
