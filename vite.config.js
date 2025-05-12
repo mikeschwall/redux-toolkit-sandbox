@@ -18,6 +18,9 @@ export default defineConfig({
         unsafe: false
       },
       mangle: false
+    },
+    build: {
+      minify: false
     }
   }
 });
