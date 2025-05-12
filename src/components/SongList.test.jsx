@@ -6,7 +6,7 @@ import { store } from "../store";
 
 
 
-test("renders welcome text", async () => {
+test("render welcome text", async () => {
   render(<Provider store={store}><App /></Provider>);
   const linkElement = await screen.findByText(/songs/i);
   expect(linkElement).toBeInTheDocument();
